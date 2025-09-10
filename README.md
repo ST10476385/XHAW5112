@@ -174,6 +174,190 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 ## Authors
 This project was created by Khanyisa Shikwambana, Rixile Ndlovu, and Success Khangale.
 
+# Empowering the Nation Mobile App
+
+## Project Overview
+
+The Empowering the Nation Mobile App is a cross-platform application designed to provide information, resources, and tools for community empowerment, skills development, and education. The app is built using React Native and Expo, and is designed to closely match the look, feel, and functionality of the Empowering the Nation web application.
+
+## Features
+
+- Home page with branding and mission statement
+- About Us section
+- Courses listing and detailed course information
+- Events calendar and event details
+- Testimonials from learners and partners
+- Contact form for user inquiries
+- Fee Calculator for course cost estimation
+- Donate Now button for community support
+- Custom navigation header and footer
+- Themed UI with light/dark mode support
+
+## Technologies Used
+
+- React Native (Expo)
+- TypeScript
+- React Navigation
+- Custom components for header, footer, and UI elements
+- Local asset management for images and fonts
+
+## Installation & Running the App
+
+1. **Clone the repository**
+   ```bash
+   git clone <your-repo-url>
+   cd EmpoweringTheNationMobile
+   ```
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+3. **Start the Expo development server**
+   ```bash
+   npx expo start
+   ```
+4. **Run on your device or emulator**
+   - Scan the QR code with Expo Go (Android/iOS)
+   - Or launch on an Android emulator/iOS simulator from the Expo Dev Tools
+
+## Project Structure
+
+- `app/` — Main application screens and navigation
+- `components/` — Reusable UI components (Header, Footer, etc.)
+- `constants/` — Theme and color definitions
+- `assets/` — Images and fonts
+- `hooks/` — Custom React hooks
+- `scripts/` — Utility scripts
+
+## Development Approach
+
+The app was developed with a focus on:
+- Pixel-perfect fidelity to the web app design
+- Accessibility and usability (following best practices)
+- Modular, reusable code structure
+- Type safety with TypeScript
+- Responsive layouts for different device sizes
+
+
+
+
+## Design Features & User Interface
+
+This project was created by Khanyisa Shikwambana, Rixile Ndlovu, and Success Khangale.
+
+The Empowering the Nation Mobile App is designed for clarity, accessibility, and a modern user experience. Below are the key design features:
+
+### Layout & Navigation
+- Custom header at the top of every screen with the Empowering the Nation logo and brand colors.
+- Main navigation is available via a horizontal scrollable header and a bottom tab bar (on mobile devices).
+- Active navigation links are highlighted for clear orientation.
+- The "Donate Now" button is always visible in the header for quick access.
+
+### Buttons
+- **Primary buttons** (e.g., Donate Now) use a bold orange background (`#ea580c`) with white text for high visibility.
+- **Navigation links** are pill-shaped. The active link uses a soft orange background (`#ffedd5`) and bold text, while the Courses link uses a green highlight (`#bbf7d0`) when active.
+- All buttons have rounded corners and padding for a modern, touch-friendly feel.
+
+### Color Palette
+- **Orange:** `#ea580c` (primary accent, used for buttons and highlights)
+- **Green:** `#15803d` (secondary accent, used for branding and active Courses link)
+- **Light Green:** `#bbf7d0` (Courses active background)
+- **Soft Orange:** `#ffedd5` (active navigation background)
+- **White:** `#fff` (background)
+- **Gray:** `#374151` (text), `#fdba74` (borders)
+- The app supports both light and dark modes, adapting to the device theme.
+
+### Forms & Inputs
+- Contact screen features clearly labeled input fields with rounded borders and ample spacing.
+- Fee Calculator uses simple numeric inputs and a prominent calculate button.
+
+### Imagery & Icons
+- All images are locally stored for fast loading and offline access.
+- Icons are used for visual cues (e.g., awards, events) and styled to match the color palette.
+
+### Typography
+- Headings use bold, colored text for emphasis (orange or green, depending on context).
+- Body text is clear and readable, with consistent font sizes and spacing.
+
+### How to Navigate
+1. **Home:** Start on the Home screen to see the mission and quick links.
+<img width="610" height="931" alt="Screenshot 2025-09-10 190257" src="https://github.com/user-attachments/assets/a3008400-e7ad-46c8-a026-36b6887aa1ef" />
+<img width="570" height="962" alt="Screenshot 2025-09-10 190344" src="https://github.com/user-attachments/assets/86ab490b-ee70-4cf6-9b46-0b203e0a4b52" />
+<img width="585" height="956" alt="Screenshot 2025-09-10 190542" src="https://github.com/user-attachments/assets/8e1f340b-c253-4143-98ae-d0742afc0950" />
+<img width="572" height="968" alt="Screenshot 2025-09-10 190611" src="https://github.com/user-attachments/assets/0a571c34-4571-442a-9b61-ff9f343e1382" />
+
+2. **Header Navigation:** Tap any link in the header (About Us, Courses, Events, Testimonials, Contact, Fee Calculator) to jump to that section. The active section is highlighted.
+3. **Tab Bar (if available):** Use the bottom tab bar for quick switching between main sections.
+4. **Donate Now:** Tap the orange Donate Now button in the header to access the donation screen from anywhere.
+5. <img width="567" height="926" alt="Screenshot 2025-09-10 201217" src="https://github.com/user-attachments/assets/2c8afae6-f20e-46db-a764-f1b6db2ed878" />
+
+6. **Explore Content:** Scroll through courses, events, and testimonials. Tap on a course or event for more details.
+<img width="561" height="960" alt="Screenshot 2025-09-10 190953" src="https://github.com/user-attachments/assets/3e44714e-8160-439b-b676-7d32faee3eb6" />
+<img width="577" height="931" alt="Screenshot 2025-09-10 191031" src="https://github.com/user-attachments/assets/0d7375ae-44d3-4e1e-9651-9c66f0180d09" />
+<img width="552" height="917" alt="Screenshot 2025-09-10 191154" src="https://github.com/user-attachments/assets/f7d9840c-3d5c-4d66-bc49-ca72e6f76fc2" />
+<img width="558" height="967" alt="Screenshot 2025-09-10 191234" src="https://github.com/user-attachments/assets/ab5f56fe-9a7d-4464-9b99-669a72ffa163" />
+
+7. **Contact & Calculator:** Use the Contact form to send a message, or the Fee Calculator to estimate course costs.
+8. <img width="561" height="965" alt="Screenshot 2025-09-10 191318" src="https://github.com/user-attachments/assets/c39d19f9-b33c-4e08-838b-5a6ec7e16f0f" />
+<img width="568" height="961" alt="Screenshot 2025-09-10 191354" src="https://github.com/user-attachments/assets/d04a89df-8425-4914-ad4a-a04280ae2e6f" />
+
+9. **Back Navigation:** Use the device back button or navigation controls to return to previous screens.
+10.**About us:** <img width="563" height="967" alt="Screenshot 2025-09-10 191857" src="https://github.com/user-attachments/assets/58fe8594-3722-4043-8a27-246fe6c5a271" />
+<img width="548" height="957" alt="Screenshot 2025-09-10 191928" src="https://github.com/user-attachments/assets/335a787b-b555-4c62-ade3-21bd164f30d0" />
+<img width="571" height="960" alt="Screenshot 2025-09-10 191955" src="https://github.com/user-attachments/assets/1ab8d268-658e-4b95-ba9b-26d619b2f3aa" />
+<img width="561" height="958" alt="Screenshot 2025-09-10 192026" src="https://github.com/user-attachments/assets/c6b3ffc8-cef7-4c02-93dc-5cee1f789e9f" />
+<img width="562" height="962" alt="Screenshot 2025-09-10 192054" src="https://github.com/user-attachments/assets/d19ebdad-a124-4012-85a9-0c6c20e61f66" />
+11.**Demo payement:** <img width="543" height="945" alt="Screenshot 2025-09-10 191818" src="https://github.com/user-attachments/assets/08bdd372-31dc-4582-8bc9-a7628a1ca77c" />
+12. **Event:** <img width="568" height="963" alt="Screenshot 2025-09-10 190649" src="https://github.com/user-attachments/assets/2d78d0f0-cc7c-456d-ae0a-2ad02d1e7d85" />
+<img width="573" height="963" alt="Screenshot 2025-09-10 190729" src="https://github.com/user-attachments/assets/6af55443-1b4f-469e-a6f1-893eab00024c" />
+<img width="566" height="957" alt="Screenshot 2025-09-10 190758" src="https://github.com/user-attachments/assets/8fa20c38-23e8-4e08-abd0-795c6fec094b" />
+<img width="567" height="951" alt="Screenshot 2025-09-10 190832" src="https://github.com/user-attachments/assets/772d27f9-b818-4aa7-bf4e-485bb2163993" />
+<img width="567" height="960" alt="Screenshot 2025-09-10 190921" src="https://github.com/user-attachments/assets/b505cac0-0eb5-4b64-8b6f-ad28bf1cb7a1" />
+
+### Layout & Navigation
+- The app uses a custom header at the top of every screen, featuring the Empowering the Nation logo and brand colors.
+- Main navigation is accessible via the header (horizontal scrollable links) and a tab bar at the bottom (on mobile devices).
+- Each navigation link highlights when active, making it clear which section the user is viewing.
+- The Donate Now button is always visible in the header for quick access.
+
+### Buttons
+- **Primary buttons** (e.g., Donate Now) use a bold orange background (`#ea580c`) with white text for high visibility and call-to-action emphasis.
+- **Navigation links** are styled as pill-shaped buttons. The active link uses a soft orange background (`#ffedd5`) and bold text, while the Courses link uses a green highlight (`#bbf7d0`) when active.
+- All buttons have rounded corners and padding for a modern, touch-friendly feel.
+
+### Color Palette
+- **Orange:** `#ea580c` (primary accent, used for buttons and highlights)
+- **Green:** `#15803d` (secondary accent, used for branding and active Courses link)
+- **Light Green:** `#bbf7d0` (Courses active background)
+- **Soft Orange:** `#ffedd5` (active navigation background)
+- **White:** `#fff` (background)
+- **Gray:** `#374151` (text), `#fdba74` (borders)
+- The app supports both light and dark modes, automatically adapting to the device theme.
+
+### Forms & Inputs
+- The Contact screen features clearly labeled input fields with rounded borders and ample spacing.
+- The Fee Calculator uses simple numeric inputs and a prominent calculate button.
+
+### Imagery & Icons
+- All images are locally stored for fast loading and offline access.
+- Icons are used for visual cues (e.g., awards, events) and are styled to match the color palette.
+
+### Typography
+- Headings use bold, colored text for emphasis (orange or green, depending on context).
+- Body text is clear and readable, with consistent font sizes and spacing.
+
+## How to Navigate the App
+
+1. **Home:** Start on the Home screen to see the mission and quick links.
+2. **Header Navigation:** Tap any link in the header (About Us, Courses, Events, Testimonials, Contact, Fee Calculator) to jump to that section. The active section is highlighted.
+3. **Tab Bar (if available):** Use the bottom tab bar for quick switching between main sections.
+4. **Donate Now:** Tap the orange Donate Now button in the header to access the donation screen from anywhere.
+5. **Explore Content:** Scroll through courses, events, and testimonials. Tap on a course or event for more details.
+6. **Contact & Calculator:** Use the Contact form to send a message, or the Fee Calculator to estimate course costs.
+7. **Back Navigation:** Use the device back button or navigation controls to return to previous screens.
+
+
+
 ## Reference List (Harvard Style)
 
 - Apple Human Interface Guidelines. (2025). Apple Developer. Available at: https://developer.apple.com/design/human-interface-guidelines/ (Accessed: 9 September 2025).
