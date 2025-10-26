@@ -313,6 +313,8 @@ The Empowering the Nation Mobile App is designed for clarity, accessibility, and
 <img width="566" height="957" alt="Screenshot 2025-09-10 190758" src="https://github.com/user-attachments/assets/8fa20c38-23e8-4e08-abd0-795c6fec094b" />
 <img width="567" height="951" alt="Screenshot 2025-09-10 190832" src="https://github.com/user-attachments/assets/772d27f9-b818-4aa7-bf4e-485bb2163993" />
 <img width="567" height="960" alt="Screenshot 2025-09-10 190921" src="https://github.com/user-attachments/assets/b505cac0-0eb5-4b64-8b6f-ad28bf1cb7a1" />
+12.**Fee calculator:**<img width="463" height="890" alt="image" src="https://github.com/user-attachments/assets/c1c0d8ed-471e-48eb-8c45-b48b3a9762eb" />
+<img width="471" height="931" alt="image" src="https://github.com/user-attachments/assets/e436d6b4-8ec6-4599-8a4b-eed395ef9f8e" />
 
 ### Layout & Navigation
 - The app uses a custom header at the top of every screen, featuring the Empowering the Nation logo and brand colors.
