@@ -1,3 +1,8 @@
+**Empowering the Nation – Milestone 2**
+**Web and Mobile App Design Project**
+
+**Group Members:** Khanyisa Ntsako Shikwambana, Rixile Nkateko Ndlovu, Rilwele Success Khangale
+**Group Leader:** Khanyisa N. Shikwambana
 
 # Empowering the Nation Web Application
 
